@@ -16,6 +16,8 @@ print(f"{guests[1]} can you make it this Sunday?")
 print(f"{guests[2]} can you make it this Sunday?")
 
 print(f"Awesomeness, I found a bigger dinner table")
+x=len(guests)
+print(x)
 guests.insert(0, 'Reba McEntire')
 guests.insert(2, 'Peanut')
 guests.append('Kelli')
@@ -27,6 +29,8 @@ print(f"{guests[2]} can you make it to dinner this Sunday? ")
 print(f"{guests[3]} can you make it to dinner this Sunday? ")
 print(f"{guests[4]} can you make it to dinner this Sunday? ")
 print(f"{guests[5]} can you make it to dinner this Sunday? ")
+
+
 
 print(f"My table will not arrive by Sunday so I can only invite two people")
 last_guests = guests.pop()
@@ -41,11 +45,10 @@ print(f"Sorry {finish_guest.title()} I cannot invite you for Sunday.")
 print(f"{guests[0]} can you make it to dinner this Sunday?")
 print(f"{guests[1]} can you make it to dinner this Sunday?")
 
-print(guests)
-
 del guests[0]
-del guests[1]
-print(guests)
+del guests[0]
+print(f"This is my number of guests now:{guests}")
+
 
 
 
