@@ -78,13 +78,3 @@ print("-------------------------------------------------")
 combolist=["Pot Roast", "Chaffels", "8", "88", "Harry Potter", "Die Hard"]
 for combo in combolist:
     print(combo)
-print("-------------------------------------------------") 
-pizzalist=["Everything Pizza", "Dill Pickle Pizza", "Pepperoni Pizza"]
-for pizza in pizzalist:
-    print(pizza)
-print("-------------------------------------------------")  
-for pizza in pizzalist:
-    print(f"{pizza.title()}, is one of my three favorite pizzas") 
-print(f"Dill Pickle pizza from G's pizza is the best.") 
-print("Everything But the Kitchen sink is a close second. Then of course Pepperoni")
-print("Pizza is a Friday night treat!!!")
