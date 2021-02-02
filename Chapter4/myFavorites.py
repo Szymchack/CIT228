@@ -1,3 +1,5 @@
+print("Chapter 3 co-oped for Chapter 4")
+
 foods=["Pot Roast", "Chaffels", "Chimichanga", "Chili Cheese Fries", "Bacon", "Barbeque"]
 print(f"Favorite food:{foods[0], foods[1], foods[2], foods[3], foods[4], foods[5]}")
 print("----------------------------------------------")
@@ -55,4 +57,34 @@ print("-------------------------------------------------")
 print(movies)
 movies.reverse()
 print(movies)
-
+print("--------------Chapter 4, Hands On 1--------------")
+print("Food List")
+print("-------------------------------------------------")
+for foods in foods:
+    print(foods)
+print("-------------------------------------------------") 
+print("Number List")  
+print("-------------------------------------------------")  
+for numbers in numbers:
+    print(numbers)
+print("-------------------------------------------------")     
+print("Movie List")  
+print("-------------------------------------------------")  
+for movies in movies:
+    print(movies)
+print("-------------------------------------------------") 
+print("Combo List")  
+print("-------------------------------------------------")  
+combolist=["Pot Roast", "Chaffels", "8", "88", "Harry Potter", "Die Hard"]
+for combo in combolist:
+    print(combo)
+print("-------------------------------------------------") 
+pizzalist=["Everything Pizza", "Dill Pickle Pizza", "Pepperoni Pizza"]
+for pizza in pizzalist:
+    print(pizza)
+print("-------------------------------------------------")  
+for pizza in pizzalist:
+    print(f"{pizza.title()}, is one of my three favorite pizzas") 
+print(f"Dill Pickle pizza from G's pizza is the best.") 
+print("Everything But the Kitchen sink is a close second. Then of course Pepperoni")
+print("Pizza is a Friday night treat!!!")
