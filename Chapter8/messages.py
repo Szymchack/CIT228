@@ -1,4 +1,5 @@
-import Chapter8.message_activity
+
+from Chapter8 import message_activity
 
 
 print("--------------------8-9--------------------")
