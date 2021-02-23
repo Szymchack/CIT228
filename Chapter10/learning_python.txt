@@ -1,0 +1,3 @@
+In Python you can store a dictionary.
+In python you can store as much information as you want.
+In Python you can make games more interesting.
