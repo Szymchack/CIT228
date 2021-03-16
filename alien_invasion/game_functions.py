@@ -2,8 +2,8 @@ import sys
 from time import sleep
 
 import pygame
-from bullet import Bullet
-from alien import Alien
+from Alien_Invasion.bullet import Bullet
+from Alien_Invasion.alien import Alien
 
 
 def check_play_button(ai_settings, screen, stats, sb, play_button, ship,

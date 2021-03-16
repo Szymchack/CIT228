@@ -3,12 +3,12 @@
 import pygame
 
 from pygame.sprite import Group
-from settings import Settings
-from game_stats import GameStats
-from scoreboard import Scoreboard
-from button import Button
-from ship import Ship
-import game_functions as gf
+from Alien_Invasion.settings import Settings
+from Alien_Invasion.game_stats import GameStats
+from Alien_Invasion.scoreboard import Scoreboard
+from Alien_Invasion.button import Button
+from Alien_Invasion.ship import Ship
+from Alien_Invasion.game_functions import game_functions as gf
 
 
 def run_game():
@@ -51,5 +51,3 @@ def run_game():
 
         gf.update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets,
                          play_button)
-
-run_game()
