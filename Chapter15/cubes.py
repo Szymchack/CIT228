@@ -23,5 +23,8 @@ plt.xlabel("Input Values")
 plt.grid()
 plt.suptitle("Fun with Numbers",color='#00cc00',fontfamily="Segoe Script", fontsize="36")
 plt.subplots_adjust(top=.8,wspace=1)
+plt.style.use("seaborn-dark-palette")
+ax2.plot(inputVal,power,color="#990000",lw="2",marker="^")
+plt.title("Numbers Raised", color="#4d0033")  
 plt.show()
 
